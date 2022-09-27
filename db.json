@@ -1,0 +1,113 @@
+{
+  "users": [
+    {
+      "email": "riyan@gmail.com",
+      "password": "$2a$10$5vbw9eljMPyFr6e4hcdEeuntweWhdGHD46UY6EfrWb4aKwiS5aQtO",
+      "name": "Riyan",
+      "id": 27,
+      "avatar": "https://randomuser.me/api/portraits/men/46.jpg"
+    },
+    {
+      "email": "hossain@gmail.com",
+      "password": "$2a$10$HGvTt59bjiLbREFQvW7/d.dw4EogGGnJgmOuC/wT1etYvO9o094hi",
+      "name": "Hossain",
+      "id": 28,
+      "avatar": "https://randomuser.me/api/portraits/men/47.jpg"
+    },
+    {
+      "email": "mehrab@gmail.com",
+      "password": "$2a$10$bdNM/k/9VV3lE1qroybJc.nV4gvrf/FVrHs46jjhkfAnwQngJtsl6",
+      "name": "Mehrab",
+      "id": 29,
+      "avatar": "https://randomuser.me/api/portraits/men/48.jpg"
+    }
+  ],
+  "teams": [
+    {
+      "name": "Dev",
+      "description": "This is a dummy description.",
+      "color": "green",
+      "members": [
+        "riyan@gmail.com",
+        "hossain@gmail.com",
+        "mehrab@gmail.com"
+      ],
+      "creator": "riyan@gmail.com",
+      "date": "2022-09-27T08:20:42.330Z",
+      "createdAt": 1664266842354,
+      "id": 1
+    },
+    {
+      "name": "Design",
+      "description": "This is a dummy description.",
+      "color": "yellow",
+      "members": [
+        "riyan@gmail.com"
+      ],
+      "creator": "riyan@gmail.com",
+      "date": "2022-09-27T08:21:26.961Z",
+      "createdAt": 1664266886990,
+      "id": 2
+    },
+    {
+      "name": "SEO",
+      "description": "This is a dummy description.",
+      "color": "violet",
+      "members": [
+        "riyan@gmail.com"
+      ],
+      "creator": "riyan@gmail.com",
+      "date": "2022-09-27T08:21:55.778Z",
+      "createdAt": 1664266915796,
+      "id": 3
+    },
+    {
+      "name": "DevOps",
+      "description": "This is a dummy description.",
+      "color": "blue",
+      "members": [
+        "riyan@gmail.com",
+        "hossain@gmail.com",
+        "mehrab@gmail.com"
+      ],
+      "creator": "riyan@gmail.com",
+      "date": "2022-09-27T08:23:42.434Z",
+      "createdAt": 1664267022451,
+      "id": 4
+    }
+  ],
+  "projects": [
+    {
+      "name": "p2",
+      "description": "This is a dummy description.",
+      "team": "Design",
+      "creator": "riyan@gmail.com",
+      "color": "yellow",
+      "stage": "done",
+      "date": "2022-09-27T08:29:05.522Z",
+      "avatar": "https://randomuser.me/api/portraits/men/46.jpg",
+      "members": [
+        "riyan@gmail.com"
+      ],
+      "createdAt": 1664267345545,
+      "id": 2
+    },
+    {
+      "name": "p2",
+      "description": "This is a dummy description.",
+      "team": "Dev",
+      "creator": "riyan@gmail.com",
+      "color": "green",
+      "stage": "backlog",
+      "date": "2022-09-27T08:59:34.811Z",
+      "avatar": "https://randomuser.me/api/portraits/men/46.jpg",
+      "members": [
+        "riyan@gmail.com",
+        "hossain@gmail.com",
+        "mehrab@gmail.com"
+      ],
+      "createdAt": 1664269174827,
+      "id": 3
+    }
+  ]
+}
